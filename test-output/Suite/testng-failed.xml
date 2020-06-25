@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestResources.NGListeners"/>
+  </listeners>
+  <test thread-count="5" name="TestNG Tests(failed)">
+    <classes>
+      <class name="TestScripts.SampleTest">
+        <methods>
+          <include name="dummyBeforeTest"/>
+          <include name="dummyTest"/>
+          <include name="dummyAfterTest"/>
+          <include name="oitTest"/>
+        </methods>
+      </class> <!-- TestScripts.SampleTest -->
+    </classes>
+  </test> <!-- TestNG Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
